@@ -4,15 +4,16 @@
   grid-area: Actions-Panel;
   display: flex;
   justify-content: center;
+  gap: 1.4rem;
 }
 
 .main_container__action_panel > button {
-  width: 6rem;
-  height: 2rem;
-  border-radius: 20%;
-  margin-left: 0.7rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-top: 0;
   background-color: #2d8fe4;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   color: white;
 }
 
