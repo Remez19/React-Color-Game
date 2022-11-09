@@ -1,0 +1,49 @@
+.main_container__color_box {
+  width: 20rem;
+  height: 20rem;
+  grid-area: Color-Box;
+  justify-self: center;
+  margin-top: 7rem;
+  border-radius: 50%;
+  animation: faddingOut 1s ease-out;
+}
+
+.main_container__color_box_worng {
+  width: 20rem;
+  height: 20rem;
+  grid-area: Color-Box;
+  justify-self: center;
+  margin-top: 7rem;
+  border-radius: 50%;
+  border-color: rgb(255, 89, 89);
+  border-width: 0.2rem;
+  border-style: solid;
+}
+
+.main_container__color_box_correct {
+  width: 20rem;
+  height: 20rem;
+  grid-area: Color-Box;
+  justify-self: center;
+  margin-top: 7rem;
+  border-radius: 50%;
+  animation: animationAfterClick 0.5s ease-out;
+}
+
+@keyframes faddingOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animationAfterClick {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
