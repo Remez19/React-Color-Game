@@ -3,12 +3,62 @@
   height: 100%;
 
   grid-template-columns: [col-start] 100% [col-end];
+  grid-template-rows: [row-1-start] 1fr [row-1-end row-2-start] 1fr [row-2-end ];
+  grid-template-areas:
+    "Color-Box"
+    "Actions-Panel";
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+/* .main_container_worng {
+  display: grid;
+  height: 100%;
+
+  grid-template-columns: [col-start] 100% [col-end];
   grid-template-rows: [row-1-start] 3fr [row-1-end row-2-start] 1fr [row-2-end];
   grid-template-areas:
     "Color-Box"
     "Actions-Panel";
   grid-gap: 5rem;
   margin: auto;
-
-  /* justify-content: center; */
+  animation-name: fadeoutWorng;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
 }
+
+.main_container_correct {
+  display: grid;
+  height: 100%;
+
+  grid-template-columns: [col-start] 100% [col-end];
+  grid-template-rows: [row-1-start] 3fr [row-1-end row-2-start] 1fr [row-2-end];
+  grid-template-areas:
+    "Color-Box"
+    "Actions-Panel";
+  grid-gap: 5rem;
+  margin: auto;
+  animation-name: fadeoutCorrect;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+} */
+
+/* @keyframes fadeoutWorng {
+  0% {
+    background-color: rgb(255, 61, 61);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@keyframes fadeoutCorrect {
+  0% {
+    background-color: rgb(0, 171, 23);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+} */

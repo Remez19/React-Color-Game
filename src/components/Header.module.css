@@ -1,0 +1,11 @@
+.main_header {
+  height: 3.5rem;
+  background-color: black;
+  text-align: center;
+}
+
+.main_header > p {
+  padding-top: 1rem;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}

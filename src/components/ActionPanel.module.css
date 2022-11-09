@@ -9,13 +9,16 @@
 .main_container__action_panel > button {
   width: 6rem;
   height: 2rem;
-  border-radius: 15%;
+  border-radius: 20%;
   margin-left: 0.7rem;
-  background-color: #024b8a;
+  background-color: #2d8fe4;
+  border: 1px solid white;
   color: white;
 }
 
 .main_container__action_panel > button:hover,
 .main_container__action_panel > button:active {
-  background-color: #2d8fe4;
+  background-color: white;
+  color: #2d8fe4;
+  border-color: #2d8fe4;
 }
